@@ -19,7 +19,7 @@ import argparse
 
 def get_word_vector(data, model):
     t1 = time.time()
-    print("Reading")
+    print("Reading my book")
     with open(data, 'r') as f:
         tokens = tokenize(f.read())
     t2 = time.time()
